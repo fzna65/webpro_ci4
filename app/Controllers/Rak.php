@@ -63,7 +63,7 @@ class Rak extends BaseController
                 ];
 
                 $modelRak->saveDataRak($datasimpan);
-                session()->setFlashdata('success', 'Data Rak!!');
+                session()->setFlashdata('success', 'Data !!');
                 ?>
                 <script>
                     document.location = "<?= base_url('rak/master-data-rak');?>";

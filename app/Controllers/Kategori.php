@@ -8,7 +8,7 @@ class Kategori extends BaseController
 {
     public function input_data_kategori(){
         if(session()->get('ses_id')=="" or session()->get('ses_user')=="" or session()->get('ses_level')==""){
-            session()->setFlashdata('error','Silakan login terlebih dahulu!');
+            session()->setFlashdata('error','Silakan  terlebih dahulu!');
             ?>
             <script>
                 document.location = "<?= base_url('admin/login-admin');?>";
